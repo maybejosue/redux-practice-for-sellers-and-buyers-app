@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Login from './Login'
+import {Signup} from './Signup'
 
 // Top Navigation for App
 export const Nav = () => {
