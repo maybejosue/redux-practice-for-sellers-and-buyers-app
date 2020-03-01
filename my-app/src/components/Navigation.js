@@ -5,7 +5,9 @@ import {Link} from 'react-router-dom'
 export const Nav = () => {
     return (
         <div>
-            <p>get Nav from ui</p>
+            <Link to='auctions'>Auctions</Link>
+            <Link to='/login'>Login</Link>
+            <Link to='/signup'>Sign up</Link>
         </div>
     )
 }
